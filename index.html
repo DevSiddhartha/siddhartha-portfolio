@@ -32,22 +32,23 @@
     <h2>@links</h2>
     <a class="link primary-link" href="https://www.google.com">Primary Link</a>
     <a  class="link secondary-link " href="https://www.facebook.com">Secondary link</a>
-
+    <hr>
     <h2>@lists</h2>
     <h3>unordered lists</h3>
-    <ul>
+    <p>This list will not have bullet.</p>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
-    <ul>
-        <li>Inline item one</li>
-        <li>Inline Item Two</li>
-        <li>Inline item three</li>
+    <ul class="list-non-bullet">
+        <li class="list-inline">Inline item one</li>
+        <li class="list-inline">Inline Item Two</li>
+        <li class="list-inline">Inline item three</li>
     </ul>
 
     <h3>reverse ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>Milk</li>
         <li>eggs</li>
         <li>bread</li>
@@ -55,12 +56,12 @@
 
     <hr>
     <h2>@nav</h2>
-    <nav>
-        <div>iambrand</div>
-        <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="/">project</a></li>
-            <li><a href="/">blog</a></li>
+    <nav class="navigation container">
+        <div class="nav-brand">theBrandName</div>
+        <ul class="list-non-bullet">
+            <li class="list-inline"><a class="link link-active" href="/">home</a></li>
+            <li class="list-inline"><a class="link" href="/">project</a></li>
+            <li class="list-inline"><a class="link" href="/">blog</a></li>
         </ul>
 
     </nav>
