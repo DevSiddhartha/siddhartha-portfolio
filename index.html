@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siddhartha Portfolio</title>
+    <title>Siddhartha</title>
+
+    <!-- CSS Way 1 - Style Tag
+        <style>
+        body{
+            color: red;
+        }
+    </style> -->
+    <!-- Third way of doing CSS - external link -->
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    Hi! I am Siddhartha!
+    <!-- <h1 style="color: blue;">Siddhartha's Component Library</h1> -->
+    <h1 id="lib-header">Siddhartha's Component Library</h1>
+    <p class="para">I want to make a component library which would make all my projects look good and consistent.</p>
+    <hr>
+    <h2>@container</h2>
+    <h3>Fluid container</h3>
+    <div class="container">This is a fluid container and it will go till the end of the page</div>
+    <h3>Center container</h3>
+    <div class="container container-center">This is a center container and it will go till the specified width</div>
+    <hr>
+
+
+    <h2>@links</h2>
+    <a class="link primary-link" href="https://www.google.com">Primary Link</a>
+    <a  class="link secondary-link " href="https://www.facebook.com">Secondary link</a>
+
+    <h2>@lists</h2>
+    <h3>unordered lists</h3>
+    <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+    <ul>
+        <li>Inline item one</li>
+        <li>Inline Item Two</li>
+        <li>Inline item three</li>
+    </ul>
+
+    <h3>reverse ordered list</h3>
+    <ol>
+        <li>Milk</li>
+        <li>eggs</li>
+        <li>bread</li>
+    </ol>
+
+    <hr>
+    <h2>@nav</h2>
+    <nav>
+        <div>iambrand</div>
+        <ul>
+            <li><a href="/">home</a></li>
+            <li><a href="/">project</a></li>
+            <li><a href="/">blog</a></li>
+        </ul>
+
+    </nav>
+<hr>
+
+<h2>@header</h2>
+<header>
+    <img src="images/hero.svg" alt="">
+    <h1>heading inside header</h1>
+
+</header>
+<hr>
+
+<h2>@section</h2>
+<section>
+<h3>white section</h3>
+<p>This section will have white background</p>
+</section>
+
+<section>
+    <h3>off white section</h3>
+    <p>This section will have gray background</p>
+</section>
+
+<hr>
+
+<h2>@footer</h2>
+<footer>
+    <div>Small heading inside footer</div>
+    <ul>
+        <li><a href="/">socialone</a></li>
+        <li><a href="/">socialtwo</a></li>
+        <li><a href="/">socialthree</a></li>
+    </ul>
+    
+   
+</footer>
+
+
+
+
+
 </body>
+
 </html>
