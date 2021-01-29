@@ -4,104 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siddhartha</title>
-
-    <!-- CSS Way 1 - Style Tag
-        <style>
-        body{
-            color: red;
-        }
-    </style> -->
-    <!-- Third way of doing CSS - external link -->
+    <title>Home | Siddhartha</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!-- <h1 style="color: blue;">Siddhartha's Component Library</h1> -->
-    <h1 id="lib-header">Siddhartha's Component Library</h1>
-    <p class="para">I want to make a component library which would make all my projects look good and consistent.</p>
-    <hr>
-    <h2>@container</h2>
-    <h3>Fluid container</h3>
-    <div class="container">This is a fluid container and it will go till the end of the page</div>
-    <h3>Center container</h3>
-    <div class="container container-center">This is a center container and it will go till the specified width</div>
-    <hr>
-
-
-    <h2>@links</h2>
-    <a class="link primary-link" href="https://www.google.com">Primary Link</a>
-    <a class="link secondary-link " href="https://www.facebook.com">Secondary link</a>
-    <hr>
-    <h2>@lists</h2>
-    <h3>unordered lists</h3>
-    <p>This list will not have bullet.</p>
-    <ul class="list-non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-    <ul class="list-non-bullet">
-        <li class="list-inline">Inline item one</li>
-        <li class="list-inline">Inline Item Two</li>
-        <li class="list-inline">Inline item three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-        <li>Milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-    </ol>
-
-    <hr>
-    <h2>@nav</h2>
-    <nav class="navigation container">
-        <div class="nav-brand">theBrandName</div>
-        <ul class="list-non-bullet">
-            <li class="list-inline"><a class="link link-active" href="/">home</a></li>
-            <li class="list-inline"><a class="link" href="/">project</a></li>
-            <li class="list-inline"><a class="link" href="/">blog</a></li>
+    <!-- Nav -->
+    <nav class="navigation">
+        <div class="nav-brand">Siddhartha</div>
+        <ul class="list-non-bullet nav-pills link-hover">
+            <li class="list-inline"><a class="link link-active" href="/">Home</a></li>
+            <li class="list-inline"><a class="link" href="/">Projects</a></li>
+            <li class="list-inline"><a class="link" href="/">Blogs</a></li>
         </ul>
 
     </nav>
-    <hr>
 
-    <h2>@header</h2>
+    <!-- Header -->
     <header class="hero">
-        <img class="hero-img" src="images/hero.svg" alt="">
-        <h1 class="hero-heading">Siddhartha Singh the <span style="color: var(--primary-color);">web developer</span>
+        <img class="hero-img" src="/images/coder.svg" alt="">
+        <h1 class="hero-heading anim-typewriter">Siddhartha Singh the <span style="color: var(--primary-color);">Web
+                Developer</span>
         </h1>
 
     </header>
-    <hr>
 
-    <h2>@section</h2>
-    <section class="section">
-        <div class="container container-center">
-            <h1>white section</h1>
-            <p>This section will have white background</p>
-        </div>
-    </section>
-
+    <!-- Technologies -->
     <section class="section ow">
         <div class="container container-center">
-            <h1>off white section</h1>
-            <p>This section will have gray background</p>
+            <h1>Technologies</h1>
+            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, ReactJS, and Web Hosting.</p>
+        </div>
+    </section>
+    
+    <!-- Projects -->
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>The best way to learn new skills is through project-based learning. I like to showcase my work and thus,
+                you can see my projects hosted online.</p>
+                <a class="link primary-link" href="/">See Projects</a>
         </div>
     </section>
 
-    <hr>
+    <!-- Blogs -->
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning. Have a look at my Blogs !</p>
+            <a class="link primary-link" href="/">Read Blogs</a>
+        </div>
+    </section>
 
-    <h2>@footer</h2>
+    <!-- Footer -->
     <footer class="footer">
-        <div class="footer-heading">header inside footer</div>
+        <div class="footer-heading">Social Links</div>
         <ul class="list-non-bullet social-links ">
-            <li class="list-inline"><a class="link" href="/">socialone</a></li>
-            <li class="list-inline"><a class="link" href="/">socialtwo</a></li>
-            <li class="list-inline"><a class="link" href="/">socialthree</a></li>
+            <li class="list-inline"><a class="link fa fa-linkedin" href="https://www.linkedin.com/in/siddhartha-kumar-singh-0a81a5148/"></a></li>
+            <li class="list-inline"><a class="link fa fa-github" href="https://github.com/DevSiddhartha"></a></li>
+            <li class="list-inline"><a class="link fa fa-facebook" href="https://www.facebook.com/profile.php?id=100012161313383"></a></li>
+            <li class="list-inline"><a class="link fa fa-twitter" href="https://twitter.com/Siddhar09268453"></a></li>
+            <li class="list-inline"><a class="link fa fa-instagram" href="https://www.instagram.com/_._siddhartha_10/"></a></li>
+            
         </ul>
-
 
     </footer>
 
