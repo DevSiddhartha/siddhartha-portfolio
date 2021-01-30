@@ -95,6 +95,10 @@ hr {
     font-weight: bold;
 }
 
+.navigation ul {
+    padding-inline-start: 0px;
+}
+
 .link-hover a:hover{
     background-color: var(--link-hover);
     border-radius: 0.4rem;
@@ -129,7 +133,7 @@ hr {
     font-weight: bolder;
 }
 
-.section p {
+.section p{
     text-align: justify;
 }
 
