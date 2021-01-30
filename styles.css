@@ -108,6 +108,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -197,4 +198,12 @@ hr {
 }  
 .footer ul {
     padding-inline-start: 0px;
+}
+ /* projects */
+.article-list {
+    padding: 1rem;
+    padding: 2rem;
+    border-radius: 7px;
+    margin-bottom: 1.5rem;
+    display: block;
 }
